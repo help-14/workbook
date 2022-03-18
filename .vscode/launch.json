@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "request": "launch",
+            "name": "Launch Program",
+            "type": "pwa-node",
+            "program": "main.ts",
+            "cwd": "${workspaceFolder}\\src\\",
+            "runtimeExecutable": "C:\\Users\\Nhan\\.deno\\bin\\deno.EXE",
+            "runtimeArgs": [
+                "run",
+                "--unstable",
+                "--inspect",
+                "--allow-all",
+            ],
+            "outputCapture": "std",
+            "attachSimplePort": 9229
+        }
+    ]
+}
